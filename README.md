@@ -109,7 +109,9 @@
 
 #### 构建人脸数据库
 
-​		人脸检测时需要读取本地的csv文件，OpenCv在contrib的face库中已经编写好了python，直接使用即可，需要注意该pyhon使用的是python2,所以执行时，需要使用python2运行该脚本，脚本路径：**opencv_contrib-3.3.0/modules/face/samples/etc**．脚本代码如下：
+​		人脸检测时需要读取本地的csv文件，OpenCv在contrib的face库中已经编写好了python，直接使用即可，需要注意该pyhon使用的是python2,所以执行时，需要使用python2运行该脚本，脚本路径：**opencv_contrib-3.3.0/modules/face/samples/etc**．
+
+脚本代码如下：
 
 ```python
 #!/usr/bin/env python
@@ -294,4 +296,8 @@ if __name__ == "__main__":
 - **检测效果**
 
   ![检测效果](./Imgs/检测效果.png)
+
+#### 总结
+
+​		之前写过这个代码，这次刚好要用，发现许多地方的忘记了，导致我花费了好大时间才把它弄出来，真心不容易，所以把遇到的问题和一些关键的点写下来，下一次就好用多了．[github链接](https://github.com/Gavince/Face-recognition)
 
